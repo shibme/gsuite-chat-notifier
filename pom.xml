@@ -5,7 +5,7 @@
 
     <groupId>me.shib.google.lib</groupId>
     <artifactId>gsuite-chat-notifier</artifactId>
-    <version>0.2</version>
+    <version>1.0</version>
     <name>GSuite Chat Notifier</name>
     <description>A library to trigger GSuite Chat notification through WebHooks</description>
     <url>https://github.com/${project.owner.id}/${project.artifactId}</url>
