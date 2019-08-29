@@ -7,9 +7,8 @@ public final class Message {
 
     private List<Card> cards;
 
-    public Message(Card card) {
+    public Message() {
         this.cards = new ArrayList<>();
-        addCard(card);
     }
 
     public void addCard(Card card) {

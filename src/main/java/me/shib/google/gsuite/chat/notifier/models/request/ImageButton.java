@@ -1,17 +1,18 @@
 package me.shib.google.gsuite.chat.notifier.models.request;
 
-public final class ImageButton extends Button {
+public final class ImageButton {
 
     private Icon icon;
     private String iconUrl;
+    private OnClick onClick;
 
     public ImageButton(Icon icon, OnClick onClick) {
-        super(onClick);
         this.icon = icon;
+        this.onClick = onClick;
     }
 
     public ImageButton(String iconUrl, OnClick onClick) {
-        super(onClick);
         this.iconUrl = iconUrl;
+        this.onClick = onClick;
     }
 }

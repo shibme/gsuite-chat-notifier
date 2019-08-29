@@ -7,9 +7,8 @@ public final class Section {
 
     private List<Widget> widgets;
 
-    public Section(Widget widget) {
+    public Section() {
         this.widgets = new ArrayList<>();
-        this.widgets.add(widget);
     }
 
     public void addWidget(Widget widget) {

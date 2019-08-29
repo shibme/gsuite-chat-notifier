@@ -8,14 +8,12 @@ public final class Card {
     private Header header;
     private List<Section> sections;
 
-    public Card(Header header) {
+    public Card() {
         this.sections = new ArrayList<>();
-        this.header = header;
     }
 
-    public Card(Section section) {
-        this.sections = new ArrayList<>();
-        this.sections.add(section);
+    public void setHeader(Header header) {
+        this.header = header;
     }
 
     public void addSection(Section section) {

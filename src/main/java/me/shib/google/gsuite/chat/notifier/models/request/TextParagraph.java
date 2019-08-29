@@ -1,6 +1,6 @@
 package me.shib.google.gsuite.chat.notifier.models.request;
 
-public final class TextParagraph implements Widget {
+public final class TextParagraph {
 
     private String text;
 

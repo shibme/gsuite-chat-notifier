@@ -1,6 +1,6 @@
 package me.shib.google.gsuite.chat.notifier.models.request;
 
-public final class Image implements Widget {
+public final class Image {
 
     private String imageUrl;
     private OnClick onClick;
