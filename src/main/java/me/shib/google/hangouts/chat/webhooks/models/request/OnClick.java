@@ -1,4 +1,4 @@
-package me.shib.google.gsuite.chat.notifier.models.request;
+package me.shib.google.hangouts.chat.webhooks.models.request;
 
 public final class OnClick {
 

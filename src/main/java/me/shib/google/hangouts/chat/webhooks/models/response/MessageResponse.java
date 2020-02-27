@@ -1,6 +1,6 @@
-package me.shib.google.gsuite.chat.notifier.models.response;
+package me.shib.google.hangouts.chat.webhooks.models.response;
 
-import me.shib.google.gsuite.chat.notifier.models.request.Card;
+import me.shib.google.hangouts.chat.webhooks.models.request.Card;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

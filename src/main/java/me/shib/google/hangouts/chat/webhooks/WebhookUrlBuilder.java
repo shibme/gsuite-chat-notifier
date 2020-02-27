@@ -1,4 +1,4 @@
-package me.shib.google.gsuite.chat.notifier;
+package me.shib.google.hangouts.chat.webhooks;
 
 import java.io.UnsupportedEncodingException;
 import java.net.MalformedURLException;
@@ -14,12 +14,12 @@ final class WebhookUrlBuilder {
     private String key;
     private String token;
 
-    WebhookUrlBuilder(String webhookURL) throws MalformedURLException, GSuiteChatException, UnsupportedEncodingException {
+    WebhookUrlBuilder(String webhookURL) throws MalformedURLException, HangoutsChatWebHookException, UnsupportedEncodingException {
         this.url = new URL(webhookURL);
         init();
     }
 
-    private void init() throws GSuiteChatException, UnsupportedEncodingException {
+    private void init() throws HangoutsChatWebHookException, UnsupportedEncodingException {
         if (url.getHost().equalsIgnoreCase("chat.googleapis.com")) {
             String[] queries = url.getQuery().split("&");
             if (queries.length == 2) {
@@ -35,14 +35,14 @@ final class WebhookUrlBuilder {
                 }
             }
         }
-        throw new GSuiteChatException("Invalid Webhook URL");
+        throw new HangoutsChatWebHookException("Invalid Webhook URL");
     }
 
     String getWebhookURL() {
         return webhookURL;
     }
 
-    public String getSpaceKey() {
+    String getSpaceKey() {
         return spaceKey;
     }
 
