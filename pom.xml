@@ -8,17 +8,17 @@
     <version>1.0.0</version>
     <name>Hangouts Chat WebHook</name>
     <description>Google Hangouts Chat WebHooks based integration for Java</description>
-    <url>https://gitlab.com/${project.owner.id}/${project.artifactId}</url>
+    <url>https://gitlab.com/shibme/hangouts-chat-webhook</url>
 
     <issueManagement>
-        <url>https://gitlab.com/${project.owner.id}/${project.artifactId}/issues</url>
+        <url>https://gitlab.com/shibme/hangouts-chat-webhook/issues</url>
         <system>GitHub Issues</system>
     </issueManagement>
 
     <scm>
-        <url>https://gitlab.com/${project.owner.id}/${project.artifactId}</url>
-        <connection>scm:git:https://gitlab.com/${project.owner.id}/${project.artifactId}.git</connection>
-        <developerConnection>scm:git:git@gitlab.com:${project.owner.id}/${project.artifactId}.git</developerConnection>
+        <url>https://gitlab.com/shibme/hangouts-chat-webhook</url>
+        <connection>scm:git:https://gitlab.com/shibme/hangouts-chat-webhook.git</connection>
+        <developerConnection>scm:git:git@gitlab.com:shibme/hangouts-chat-webhook.git</developerConnection>
     </scm>
 
     <licenses>
@@ -44,9 +44,9 @@
 
     <distributionManagement>
         <repository>
-            <id>bintray-${project.owner.id}-maven</id>
-            <name>${project.owner.id}-maven</name>
-            <url>https://api.bintray.com/maven/${project.owner.id}/maven/${project.artifactId}/;publish=1;override=1
+            <id>bintray-shibme-maven</id>
+            <name>shibme-maven</name>
+            <url>https://api.bintray.com/maven/shibme/maven/hangouts-chat-webhook/;publish=1;override=1
             </url>
         </repository>
     </distributionManagement>

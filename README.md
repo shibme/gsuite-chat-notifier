@@ -1,5 +1,5 @@
-### Hangouts Chat WebHook
-[![Download](https://api.bintray.com/packages/shibme/maven/hangouts-chat-webhook/images/download.svg)](https://bintray.com/shibme/maven/hangouts-chat-webhook/_latestVersion)
+## Hangouts Chat WebHook
+[![Maven Central](https://img.shields.io/maven-central/v/me.shib.lib.google/hangouts-chat-webhook.svg?label=hangouts-chat-webhook)](https://maven-badges.herokuapp.com/maven-central/me.shib.lib.google/hangouts-chat-webhook)
 [![Build Status](https://gitlab.com/shibme/hangouts-chat-webhook/badges/master/pipeline.svg)](https://gitlab.com/shibme/hangouts-chat-webhook/pipelines)
 
 Google Hangouts Chat WebHooks based integration for Java
