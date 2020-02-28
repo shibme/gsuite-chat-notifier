@@ -21,6 +21,14 @@
         <developerConnection>scm:git:git@gitlab.com:${project.owner.id}/${project.artifactId}.git</developerConnection>
     </scm>
 
+    <licenses>
+        <license>
+            <name>GNU General Public License</name>
+            <url>http://www.gnu.org/licenses/gpl.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
     <developers>
         <developer>
             <name>Shibly Meeran</name>
